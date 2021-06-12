@@ -1,11 +1,22 @@
 body {
     background-color: rgb(206, 236, 197);
+    
+}
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background: url('../img/08a26a8506301cdd62b453999b7ddfb0.jpg');
+    background-size: cover;
 }
 
 .container-form {
-    width:80%;
+    width:50%;
+    height:50vh;
+    overflow-y: scroll;
     margin:0 auto;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.7);
     padding: 2em;
     border-radius: 10px;
 
@@ -17,10 +28,11 @@ body {
     label {
         margin:3em 0 1em 0;
         display:block;
+        color:rgb(59, 57, 57);
     }
 
     input[type="text"], input[type="email"], input[type="password"] {
-        background: rgba(197, 236, 197,.4);
+        background: rgba(197, 236, 197,.8);
         
     }
 

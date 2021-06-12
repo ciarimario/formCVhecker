@@ -2,10 +2,27 @@ body {
   background-color: #ceecc5;
 }
 
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: url("../img/08a26a8506301cdd62b453999b7ddfb0.jpg");
+  background-size: cover;
+}
+
 .container-form {
-  width: 80%;
+  width: 50%;
+  height: 50vh;
+  overflow-y: scroll;
   margin: 0 auto;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
   padding: 2em;
   border-radius: 10px;
 }
@@ -18,10 +35,11 @@ body {
 .container-form label {
   margin: 3em 0 1em 0;
   display: block;
+  color: #3b3939;
 }
 
 .container-form input[type="text"], .container-form input[type="email"], .container-form input[type="password"] {
-  background: rgba(197, 236, 197, 0.4);
+  background: rgba(197, 236, 197, 0.8);
 }
 
 .container-form i {
